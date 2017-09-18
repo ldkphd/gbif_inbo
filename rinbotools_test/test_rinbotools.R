@@ -1,11 +1,11 @@
-# load libraries
+# load required libraries
 library(rinbotools)
 library(tools)
 
-# test code for function
-
 # download example file
 # set path to file
+path ='C:/Luc/Personal/mygithub/gbif_inbo/rinbotools_test/gbif_example.csv'
+
 path ='C:/.../gbif_example.csv'
 fpathIn = path
 fpathOut = NULL
