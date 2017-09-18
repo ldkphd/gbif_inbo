@@ -36,26 +36,23 @@ enables the use of other separators (both input and output)
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+dataframe matching the loaded csv file with four standard gbif 
 }
 \references{
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Luc Dekoninck
 }
 \note{
-%%  ~~further notes~~
+Just a first example of building an R package
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+gbif biodiversisty: https://www.gbif.org/
+rgbif documention:  https://github.com/ropensci/rgbif
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----

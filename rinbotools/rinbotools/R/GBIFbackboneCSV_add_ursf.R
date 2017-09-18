@@ -30,6 +30,7 @@ function(fpathIn, fpathOut = NULL, fileOut = TRUE,
 	  }
   # load required package
   library(rgbif)
+  library(rgbif)
 
   # load the csv file
   dfIn <- read.table(file=fpathIn, header=TRUE, sep=",")
@@ -61,11 +62,9 @@ function(fpathIn, fpathOut = NULL, fileOut = TRUE,
     }
   
   
-  # Error handling
+  # Feedback
   if (verbose)
     cat("Added ursf to CSV for", nrow(dfOut), "rows.\n", sep = " ")
-#    if (length(na.omit(dfOut$speciesKey)) != length(dfOut$speciesKey))
-#      cat("Success rate", nrow(na.omit(dfOut))/nrow(dfOut), ", ", nrow(dfOut) - nrow(na.omit(dfOut)), "errors.\n", sep = " ")
   
   return(dfOut)
 }
