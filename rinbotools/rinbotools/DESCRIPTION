@@ -1,0 +1,9 @@
+Package: rinbotools
+Type: Package
+Title: Load csv file with rgbif name_backbone species and adds a set of attributes
+Version: 1.0
+Date: 2017-09-17
+Author: Luc Dekoninck
+Maintainer: Luc Dekoninck <yourfault@somewhere.net>
+Description: This is a test (yes, a real test) package 
+License: GPL-2 (GNU General Public License Version 2)
